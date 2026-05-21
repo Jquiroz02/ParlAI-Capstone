@@ -5,7 +5,7 @@ const testUsers = {
   // Onboarded user - authenticated and completed onboarding
   onboardedUser: {
     userId: 'c8c1c8b26f3b41aa8651cfbec2121a6c',
-    userDetails: 'amalxsuresh@gmail.com',
+    userDetails: 'quirozjonathan232@gmail.com',
     claims: [],
   },
 };

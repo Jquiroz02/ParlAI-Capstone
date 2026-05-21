@@ -20,7 +20,7 @@ Contractual 99.9% service availability outside of the 03:00–05:00 maintenance 
 
 ### Service owner
 
-CPSC 491 Group 5 develops and runs this service: amalsuresh@csu.fullerton.edu
+Jonathan Quiroz develops and maintains this service for CPSC 491-08 Senior Capstone Project in Computer Science.
 
 ### Contributing applications, daemons, services, middleware
 
