@@ -1,0 +1,9 @@
+# Ignore directories
+/node_modules
+/build
+/dist
+/coverage
+
+# Ignore files
+*.css
+*.scss

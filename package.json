@@ -1,0 +1,37 @@
+{
+  "name": "491-parlai",
+  "version": "1.0.0",
+  "description": "root package.json",
+  "homepage": "https://github.com/AmalSresh/491-ParlAI#readme",
+  "bugs": {
+    "url": "https://github.com/AmalSresh/491-ParlAI/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmalSresh/491-ParlAI.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "playwright.config.js",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "start": "concurrently -k -s first \"npm run start:backend\" \"npm run start:swa\"",
+    "test:frontend": "npm run test --workspaces --if-present",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui",
+    "start:backend": "cd backend && npm run start",
+    "start:frontend": "cd frontend && npm run dev",
+    "start:swa": "swa start",
+    "test:run-when-ready": "wait-on tcp:7071 tcp:5173 tcp:4280 && playwright test",
+    "test:e2e:full": "concurrently -k --kill-signal SIGKILL -s first \"npm run start:backend\" \"npm run start:frontend\" \"npm run start:swa\" \"npm run test:run-when-ready\""
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "concurrently": "^9.2.1",
+    "wait-on": "^9.0.5"
+  }
+}
