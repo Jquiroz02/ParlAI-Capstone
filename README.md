@@ -1,4 +1,4 @@
-# 491-ParlAI
+# ParlAI Capstone Project
 
 ParlAI is a full-stack sports betting web-app that uses vitual currency and is hosted through Microsoft Azure.
 
@@ -13,7 +13,6 @@ React
 Microsoft Azure  
  Azure Static Web Apps  
  Microsoft Entra ID  
- GitHub Actions  
  Azure Functions
 Node.js
 
@@ -28,7 +27,7 @@ Node.js
 ## To build and test the app
 
 Clone the repository:  
- `git clone https://github.com/AmalSresh/491-ParlAI.git`
+ `git clone https://github.com/Jquiroz02/ParlAI-Capstone.git`
 
 ## 🧪 End-to-End Testing (Playwright)
 

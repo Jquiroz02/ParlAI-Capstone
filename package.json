@@ -2,13 +2,13 @@
   "name": "491-parlai",
   "version": "1.0.0",
   "description": "root package.json",
-  "homepage": "https://github.com/AmalSresh/491-ParlAI#readme",
+  "homepage": "https://github.com/Jquiroz02/ParlAI-Capstone#readme",
   "bugs": {
-    "url": "https://github.com/AmalSresh/491-ParlAI/issues"
+    "url": "https://github.com/Jquiroz02/ParlAI-Capstone/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AmalSresh/491-ParlAI.git"
+    "url":  "git+https://github.com/Jquiroz02/ParlAI-Capstone.git"
   },
   "license": "ISC",
   "author": "",
